@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<selector xmlns:androis="http://schemas.android.com/apk/res/android">
+  
+  <item androis:state_pressed="false">
+    
+    <layer-list>
+      <item>
+        <shape>
+          
+          <gradient androis:angle="270" androis:startColor="@color/white" androis:endColor="@color/white"/>
+          <stroke androis:width="1dp" androis:color="@color/colorGray"/>
+          <corners androis:radius="5dp"/>
+          
+        </shape>
+      </item>
+    </layer-list>
+  </item>
+
+  <item androis:state_pressed="true">
+    
+    <layer-list>
+      <item>
+        <shape>
+          
+          <gradient androis:angle="270" androis:startColor="@color/colorGray" androis:endColor="@color/colorGray"/>
+          <stroke androis:width="1dp" androis:color="@color/colorGray"/>
+          <corners androis:radius="5dp"/>
+          
+        </shape>
+      </item>
+    </layer-list>
+  </item>
+</selector>
